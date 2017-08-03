@@ -507,6 +507,7 @@
 				F4D5AA8E1F1BE59F00CA6E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4D5AA8F1F1BE59F00CA6E6F /* Build configuration list for PBXNativeTarget "Oppositify CLRTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				F4D5AA911F1BE59F00CA6E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4D5AA921F1BE59F00CA6E6F /* Build configuration list for PBXNativeTarget "Oppositify CLRUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				F4D5AA941F1BE59F00CA6E6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
