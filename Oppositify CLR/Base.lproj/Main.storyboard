@@ -24,12 +24,6 @@
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y9V-7K-ljc">
                                 <rect key="frame" x="0.0" y="473" width="375" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JxH-qN-wS6">
-                                        <rect key="frame" x="0.0" y="-10" width="375" height="204"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </view>
-                                </subviews>
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="7K2-IS-lDE">
                                 <rect key="frame" x="-2" y="387" width="379" height="31"/>
@@ -91,7 +85,8 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="CLR" destination="b9s-Mx-aoK" id="5Jh-mI-nAF"/>
+                        <outlet property="chosenColourView" destination="b9s-Mx-aoK" id="4N0-kk-Hqv"/>
+                        <outlet property="oppositifiedColourView" destination="Y9V-7K-ljc" id="ZcT-nb-dxg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

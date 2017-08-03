@@ -15,17 +15,18 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.white
         
+        chosenColourView.backgroundColor = .orange
+       oppositifiedColourView.backgroundColor = .cyan
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
-    @IBOutlet weak var CLR: UIView!
+
+    @IBOutlet weak var chosenColourView: UIView!
+    @IBOutlet weak var oppositifiedColourView: UIView!
     
     @IBAction func changered(_ sender: UISlider) {
 
+        print(sender.value)
     }
 }
